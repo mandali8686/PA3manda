@@ -1,0 +1,32 @@
+namespace GroceryAppProto;
+
+struct typeAndQuantity{
+  type:str;
+  quantity:float;
+}
+
+table grocery_Message
+{
+  msg_type:str;
+  tomato:float;
+  cucumber:float;
+  onion:float;
+  green_bean:float;
+  broccoli:float;
+  jalapineo:float;
+  coke:int;
+  beer:int;
+  diet_coke:int;
+  sprite:int;
+  root_beer:int;
+  lemonade:int;
+  milk:typeAndQuantity;
+  bread:typeAndQuantity;
+  meat:typeAndQuantity;
+  }
+
+
+root_type grocery_Message
+  
+  
+  

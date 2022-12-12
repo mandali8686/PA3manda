@@ -1,0 +1,9 @@
+namespace ResponseAppProto;
+
+table response_Message
+{
+  code:string;
+  contents:string;
+}
+
+root_type response_Message;
